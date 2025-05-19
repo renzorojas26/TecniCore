@@ -1,0 +1,134 @@
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+  font-size: 19px;
+  margin-right: 24px;
+  color: white
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26px;
+  color: white
+}
+
+.lista {
+  display: flex;
+}
+.parra {
+
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black
+  }
+
+.titular {
+  text-align: center;
+  margin-top: 200px;
+  color: white
+}
+
+h1 {
+  font-size: 65px;
+  margin: 0;
+  color: white
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 44px;
+  color: white
+}
+
+a {
+  font-size: 20px;
+  background: #26f406;
+  padding: 15px 25px 15px 25px;
+  color: white
+}
+
+header {
+  background: url(fondo1.png);
+  height: 100vh;
+  background-size: cover;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+img {
+  height: 500px;
+}
+
+/* ARRANCA SECCION DESCRIPCION */
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.contenedor-DESCRIPCION {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black
+}
+
+.letra {
+  width: 42%;
+}
+.hola {
+  color: black
+}
+
+.letra p {
+  font-size: 23px;
+}
+.contenedor-servicio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.servicio {
+  width: 35%;
+  padding: 38px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.violeta {
+background: #40a8fa;
+}
+
+.celeste {
+  background: #19bda7;
+}
+
+.servicio h4 {
+  font-size: 35px;
+  margin: 0;
+}
+
+.servicio img {
+  float: right;
+  height: 85px;
+}
+
+.servicio p {
+  font-size: 17px;
+}
